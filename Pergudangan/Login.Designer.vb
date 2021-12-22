@@ -24,7 +24,7 @@ Partial Class Login
     Private Sub InitializeComponent()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
-        Me.TxtUser = New System.Windows.Forms.TextBox()
+        Me.TxtUsername = New System.Windows.Forms.TextBox()
         Me.TxtPassword = New System.Windows.Forms.TextBox()
         Me.BtnLogin = New System.Windows.Forms.Button()
         Me.BtnRegister = New System.Windows.Forms.Button()
@@ -34,7 +34,7 @@ Partial Class Login
         '
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(38, 36)
+        Me.Label1.Location = New System.Drawing.Point(38, 39)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(110, 25)
         Me.Label1.TabIndex = 0
@@ -44,58 +44,62 @@ Partial Class Login
         '
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(38, 97)
+        Me.Label2.Location = New System.Drawing.Point(38, 100)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(106, 25)
         Me.Label2.TabIndex = 0
         Me.Label2.Text = "Password"
         '
-        'TxtUser
+        'TxtUsername
         '
-        Me.TxtUser.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TxtUser.Location = New System.Drawing.Point(217, 33)
-        Me.TxtUser.Name = "TxtUser"
-        Me.TxtUser.Size = New System.Drawing.Size(221, 31)
-        Me.TxtUser.TabIndex = 1
+        Me.TxtUsername.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TxtUsername.Location = New System.Drawing.Point(217, 36)
+        Me.TxtUsername.Name = "TxtUsername"
+        Me.TxtUsername.Size = New System.Drawing.Size(221, 31)
+        Me.TxtUsername.TabIndex = 1
         '
         'TxtPassword
         '
         Me.TxtPassword.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TxtPassword.Location = New System.Drawing.Point(217, 94)
+        Me.TxtPassword.Location = New System.Drawing.Point(217, 97)
         Me.TxtPassword.Name = "TxtPassword"
         Me.TxtPassword.Size = New System.Drawing.Size(221, 31)
         Me.TxtPassword.TabIndex = 1
         '
         'BtnLogin
         '
-        Me.BtnLogin.Location = New System.Drawing.Point(363, 155)
+        Me.BtnLogin.BackColor = System.Drawing.Color.White
+        Me.BtnLogin.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.BtnLogin.Location = New System.Drawing.Point(363, 158)
         Me.BtnLogin.Name = "BtnLogin"
         Me.BtnLogin.Size = New System.Drawing.Size(75, 23)
         Me.BtnLogin.TabIndex = 2
         Me.BtnLogin.Text = "Login"
-        Me.BtnLogin.UseVisualStyleBackColor = True
+        Me.BtnLogin.UseVisualStyleBackColor = False
         '
         'BtnRegister
         '
-        Me.BtnRegister.Location = New System.Drawing.Point(269, 155)
+        Me.BtnRegister.BackColor = System.Drawing.Color.White
+        Me.BtnRegister.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.BtnRegister.Location = New System.Drawing.Point(269, 158)
         Me.BtnRegister.Name = "BtnRegister"
         Me.BtnRegister.Size = New System.Drawing.Size(75, 23)
         Me.BtnRegister.TabIndex = 2
         Me.BtnRegister.Text = "Register"
-        Me.BtnRegister.UseVisualStyleBackColor = True
+        Me.BtnRegister.UseVisualStyleBackColor = False
         '
-        'Form1
+        'Login
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(500, 219)
+        Me.ClientSize = New System.Drawing.Size(499, 221)
         Me.Controls.Add(Me.BtnRegister)
         Me.Controls.Add(Me.BtnLogin)
         Me.Controls.Add(Me.TxtPassword)
-        Me.Controls.Add(Me.TxtUser)
+        Me.Controls.Add(Me.TxtUsername)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
-        Me.Name = "Form1"
+        Me.Name = "Login"
         Me.Text = "Login"
         Me.ResumeLayout(False)
         Me.PerformLayout()
@@ -104,7 +108,7 @@ Partial Class Login
 
     Friend WithEvents Label1 As Label
     Friend WithEvents Label2 As Label
-    Friend WithEvents TxtUser As TextBox
+    Friend WithEvents TxtUsername As TextBox
     Friend WithEvents TxtPassword As TextBox
     Friend WithEvents BtnLogin As Button
     Friend WithEvents BtnRegister As Button
