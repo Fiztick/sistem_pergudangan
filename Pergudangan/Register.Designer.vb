@@ -22,45 +22,44 @@ Partial Class Register
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.BtnRegister = New System.Windows.Forms.Button()
+        Me.BtnBikin = New System.Windows.Forms.Button()
         Me.TxtPassword = New System.Windows.Forms.TextBox()
-        Me.TxtUsername = New System.Windows.Forms.TextBox()
+        Me.TxtUser = New System.Windows.Forms.TextBox()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
-        'BtnRegister
+        'BtnBikin
         '
-        Me.BtnRegister.BackColor = System.Drawing.Color.White
-        Me.BtnRegister.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.BtnRegister.Location = New System.Drawing.Point(363, 158)
-        Me.BtnRegister.Name = "BtnRegister"
-        Me.BtnRegister.Size = New System.Drawing.Size(75, 23)
-        Me.BtnRegister.TabIndex = 7
-        Me.BtnRegister.Text = "Register"
-        Me.BtnRegister.UseVisualStyleBackColor = False
+        Me.BtnBikin.BackColor = System.Drawing.Color.FromArgb(CType(CType(128, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer))
+        Me.BtnBikin.Location = New System.Drawing.Point(392, 152)
+        Me.BtnBikin.Name = "BtnBikin"
+        Me.BtnBikin.Size = New System.Drawing.Size(75, 34)
+        Me.BtnBikin.TabIndex = 7
+        Me.BtnBikin.Text = "Bikin Akun"
+        Me.BtnBikin.UseVisualStyleBackColor = False
         '
         'TxtPassword
         '
         Me.TxtPassword.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TxtPassword.Location = New System.Drawing.Point(217, 97)
+        Me.TxtPassword.Location = New System.Drawing.Point(246, 103)
         Me.TxtPassword.Name = "TxtPassword"
         Me.TxtPassword.Size = New System.Drawing.Size(221, 31)
         Me.TxtPassword.TabIndex = 5
         '
-        'TxtUsername
+        'TxtUser
         '
-        Me.TxtUsername.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TxtUsername.Location = New System.Drawing.Point(217, 36)
-        Me.TxtUsername.Name = "TxtUsername"
-        Me.TxtUsername.Size = New System.Drawing.Size(221, 31)
-        Me.TxtUsername.TabIndex = 6
+        Me.TxtUser.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TxtUser.Location = New System.Drawing.Point(246, 42)
+        Me.TxtUser.Name = "TxtUser"
+        Me.TxtUser.Size = New System.Drawing.Size(221, 31)
+        Me.TxtUser.TabIndex = 6
         '
         'Label2
         '
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(38, 100)
+        Me.Label2.Location = New System.Drawing.Point(67, 106)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(106, 25)
         Me.Label2.TabIndex = 3
@@ -70,7 +69,7 @@ Partial Class Register
         '
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(38, 39)
+        Me.Label1.Location = New System.Drawing.Point(67, 45)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(110, 25)
         Me.Label1.TabIndex = 4
@@ -80,10 +79,11 @@ Partial Class Register
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(499, 221)
-        Me.Controls.Add(Me.BtnRegister)
+        Me.BackColor = System.Drawing.Color.Silver
+        Me.ClientSize = New System.Drawing.Size(518, 219)
+        Me.Controls.Add(Me.BtnBikin)
         Me.Controls.Add(Me.TxtPassword)
-        Me.Controls.Add(Me.TxtUsername)
+        Me.Controls.Add(Me.TxtUser)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
         Me.Name = "Register"
@@ -93,9 +93,9 @@ Partial Class Register
 
     End Sub
 
-    Friend WithEvents BtnRegister As Button
+    Friend WithEvents BtnBikin As Button
     Friend WithEvents TxtPassword As TextBox
-    Friend WithEvents TxtUsername As TextBox
+    Friend WithEvents TxtUser As TextBox
     Friend WithEvents Label2 As Label
     Friend WithEvents Label1 As Label
 End Class
