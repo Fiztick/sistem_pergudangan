@@ -73,22 +73,76 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Gudang TIK.Designer.vb">
-      <DependentUpon>Gudang TIK.vb</DependentUpon>
+    <Compile Include="Add Barang Gudang.Designer.vb">
+      <DependentUpon>Add Barang Gudang.vb</DependentUpon>
     </Compile>
-    <Compile Include="Gudang TIK.vb">
+    <Compile Include="Add Barang Gudang.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Jual Barang.Designer.vb">
-      <DependentUpon>Jual Barang.vb</DependentUpon>
+    <Compile Include="Add Barang Masuk.Designer.vb">
+      <DependentUpon>Add Barang Masuk.vb</DependentUpon>
     </Compile>
-    <Compile Include="Jual Barang.vb">
+    <Compile Include="Add Barang Masuk.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Konfirmasi Jual.Designer.vb">
-      <DependentUpon>Konfirmasi Jual.vb</DependentUpon>
+    <Compile Include="Add Jenis Barang.Designer.vb">
+      <DependentUpon>Add Jenis Barang.vb</DependentUpon>
     </Compile>
-    <Compile Include="Konfirmasi Jual.vb">
+    <Compile Include="Add Jenis Barang.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Add Order Barang.Designer.vb">
+      <DependentUpon>Add Order Barang.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Add Order Barang.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Barang Gudang.Designer.vb">
+      <DependentUpon>Barang Gudang.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Barang Gudang.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Edit Barang Gudang.Designer.vb">
+      <DependentUpon>Edit Barang Gudang.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Edit Barang Gudang.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Edit Jenis Barang.Designer.vb">
+      <DependentUpon>Edit Jenis Barang.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Edit Jenis Barang.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Hapus Barang Gudang.Designer.vb">
+      <DependentUpon>Hapus Barang Gudang.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Hapus Barang Gudang.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Hapus Barang Masuk.Designer.vb">
+      <DependentUpon>Hapus Barang Masuk.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Hapus Barang Masuk.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Hapus Jenis Barang.Designer.vb">
+      <DependentUpon>Hapus Jenis Barang.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Hapus Jenis Barang.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Hapus Order Barang.Designer.vb">
+      <DependentUpon>Hapus Order Barang.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Hapus Order Barang.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Jenis Barang.Designer.vb">
+      <DependentUpon>Jenis Barang.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Jenis Barang.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Login.vb">
@@ -96,6 +150,12 @@
     </Compile>
     <Compile Include="Login.Designer.vb">
       <DependentUpon>Login.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Masuk Barang.Designer.vb">
+      <DependentUpon>Masuk Barang.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Masuk Barang.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -113,43 +173,67 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="Order Barang.Designer.vb">
+      <DependentUpon>Order Barang.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Order Barang.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pergudangan.Designer.vb">
+      <DependentUpon>Pergudangan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Pergudangan.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Register.Designer.vb">
       <DependentUpon>Register.vb</DependentUpon>
     </Compile>
     <Compile Include="Register.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Request Barang.Designer.vb">
-      <DependentUpon>Request Barang.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Request Barang.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Status Request.Designer.vb">
-      <DependentUpon>Status Request.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Status Request.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Tabel Request.Designer.vb">
-      <DependentUpon>Tabel Request.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Tabel Request.vb">
-      <SubType>Form</SubType>
-    </Compile>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Gudang TIK.resx">
-      <DependentUpon>Gudang TIK.vb</DependentUpon>
+    <EmbeddedResource Include="Add Barang Gudang.resx">
+      <DependentUpon>Add Barang Gudang.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Jual Barang.resx">
-      <DependentUpon>Jual Barang.vb</DependentUpon>
+    <EmbeddedResource Include="Add Barang Masuk.resx">
+      <DependentUpon>Add Barang Masuk.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Konfirmasi Jual.resx">
-      <DependentUpon>Konfirmasi Jual.vb</DependentUpon>
+    <EmbeddedResource Include="Add Jenis Barang.resx">
+      <DependentUpon>Add Jenis Barang.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Add Order Barang.resx">
+      <DependentUpon>Add Order Barang.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Barang Gudang.resx">
+      <DependentUpon>Barang Gudang.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Edit Barang Gudang.resx">
+      <DependentUpon>Edit Barang Gudang.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Edit Jenis Barang.resx">
+      <DependentUpon>Edit Jenis Barang.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Hapus Barang Gudang.resx">
+      <DependentUpon>Hapus Barang Gudang.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Hapus Barang Masuk.resx">
+      <DependentUpon>Hapus Barang Masuk.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Hapus Jenis Barang.resx">
+      <DependentUpon>Hapus Jenis Barang.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Hapus Order Barang.resx">
+      <DependentUpon>Hapus Order Barang.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Jenis Barang.resx">
+      <DependentUpon>Jenis Barang.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Masuk Barang.resx">
+      <DependentUpon>Masuk Barang.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
@@ -157,17 +241,14 @@
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
     </EmbeddedResource>
+    <EmbeddedResource Include="Order Barang.resx">
+      <DependentUpon>Order Barang.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pergudangan.resx">
+      <DependentUpon>Pergudangan.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Register.resx">
       <DependentUpon>Register.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Request Barang.resx">
-      <DependentUpon>Request Barang.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Status Request.resx">
-      <DependentUpon>Status Request.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Tabel Request.resx">
-      <DependentUpon>Tabel Request.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>

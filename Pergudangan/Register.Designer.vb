@@ -32,9 +32,10 @@ Partial Class Register
         'BtnBikin
         '
         Me.BtnBikin.BackColor = System.Drawing.Color.FromArgb(CType(CType(128, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer))
-        Me.BtnBikin.Location = New System.Drawing.Point(392, 152)
+        Me.BtnBikin.Font = New System.Drawing.Font("Orbitron", 8.249999!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BtnBikin.Location = New System.Drawing.Point(378, 150)
         Me.BtnBikin.Name = "BtnBikin"
-        Me.BtnBikin.Size = New System.Drawing.Size(75, 34)
+        Me.BtnBikin.Size = New System.Drawing.Size(89, 34)
         Me.BtnBikin.TabIndex = 7
         Me.BtnBikin.Text = "Bikin Akun"
         Me.BtnBikin.UseVisualStyleBackColor = False
@@ -58,20 +59,20 @@ Partial Class Register
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.Font = New System.Drawing.Font("Orbitron", 15.75!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label2.Location = New System.Drawing.Point(67, 106)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(106, 25)
+        Me.Label2.Size = New System.Drawing.Size(132, 25)
         Me.Label2.TabIndex = 3
         Me.Label2.Text = "Password"
         '
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Font = New System.Drawing.Font("Orbitron", 15.75!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.Location = New System.Drawing.Point(67, 45)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(110, 25)
+        Me.Label1.Size = New System.Drawing.Size(133, 25)
         Me.Label1.TabIndex = 4
         Me.Label1.Text = "Username"
         '
