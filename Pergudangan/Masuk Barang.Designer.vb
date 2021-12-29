@@ -34,29 +34,29 @@ Partial Class Masuk_Barang
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Font = New System.Drawing.Font("Orbitron", 11.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(82, 19)
+        Me.Label1.Font = New System.Drawing.Font("Orbitron", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Location = New System.Drawing.Point(142, 9)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(194, 18)
+        Me.Label1.Size = New System.Drawing.Size(278, 25)
         Me.Label1.TabIndex = 13
         Me.Label1.Text = "Masuk Barang Gudang"
         '
         'BtnHapusBarangMasuk
         '
-        Me.BtnHapusBarangMasuk.Font = New System.Drawing.Font("Orbitron", 8.249999!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.BtnHapusBarangMasuk.Location = New System.Drawing.Point(203, 223)
+        Me.BtnHapusBarangMasuk.Font = New System.Drawing.Font("Orbitron", 8.249999!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BtnHapusBarangMasuk.Location = New System.Drawing.Point(358, 173)
         Me.BtnHapusBarangMasuk.Name = "BtnHapusBarangMasuk"
-        Me.BtnHapusBarangMasuk.Size = New System.Drawing.Size(115, 37)
+        Me.BtnHapusBarangMasuk.Size = New System.Drawing.Size(190, 30)
         Me.BtnHapusBarangMasuk.TabIndex = 12
         Me.BtnHapusBarangMasuk.Text = "Hapus Barang Masuk"
         Me.BtnHapusBarangMasuk.UseVisualStyleBackColor = True
         '
         'BtnAddBarangMasuk
         '
-        Me.BtnAddBarangMasuk.Font = New System.Drawing.Font("Orbitron", 8.249999!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.BtnAddBarangMasuk.Location = New System.Drawing.Point(32, 223)
+        Me.BtnAddBarangMasuk.Font = New System.Drawing.Font("Orbitron", 8.249999!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BtnAddBarangMasuk.Location = New System.Drawing.Point(358, 53)
         Me.BtnAddBarangMasuk.Name = "BtnAddBarangMasuk"
-        Me.BtnAddBarangMasuk.Size = New System.Drawing.Size(102, 37)
+        Me.BtnAddBarangMasuk.Size = New System.Drawing.Size(190, 30)
         Me.BtnAddBarangMasuk.TabIndex = 11
         Me.BtnAddBarangMasuk.Text = "Add Barang Masuk"
         Me.BtnAddBarangMasuk.UseVisualStyleBackColor = True
@@ -65,9 +65,9 @@ Partial Class Masuk_Barang
         '
         Me.DataGridMasukBarang.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.DataGridMasukBarang.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.IdOrder, Me.JumlahMasuk})
-        Me.DataGridMasukBarang.Location = New System.Drawing.Point(43, 53)
+        Me.DataGridMasukBarang.Location = New System.Drawing.Point(12, 53)
         Me.DataGridMasukBarang.Name = "DataGridMasukBarang"
-        Me.DataGridMasukBarang.Size = New System.Drawing.Size(275, 150)
+        Me.DataGridMasukBarang.Size = New System.Drawing.Size(340, 150)
         Me.DataGridMasukBarang.TabIndex = 10
         '
         'IdOrder
@@ -84,7 +84,7 @@ Partial Class Masuk_Barang
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(423, 308)
+        Me.ClientSize = New System.Drawing.Size(584, 361)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.BtnHapusBarangMasuk)
         Me.Controls.Add(Me.BtnAddBarangMasuk)

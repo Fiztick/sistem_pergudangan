@@ -22,46 +22,58 @@ Partial Class Hapus_Order_Barang
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Me.LblIdBarang = New System.Windows.Forms.Label()
         Me.BtnYakin = New System.Windows.Forms.Button()
         Me.BtnBatal = New System.Windows.Forms.Button()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
+        'LblIdBarang
+        '
+        Me.LblIdBarang.AutoSize = True
+        Me.LblIdBarang.Font = New System.Drawing.Font("Orbitron", 8.249999!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LblIdBarang.Location = New System.Drawing.Point(227, 111)
+        Me.LblIdBarang.Name = "LblIdBarang"
+        Me.LblIdBarang.Size = New System.Drawing.Size(68, 14)
+        Me.LblIdBarang.TabIndex = 7
+        Me.LblIdBarang.Text = "ID Barang"
+        '
         'BtnYakin
         '
-        Me.BtnYakin.Font = New System.Drawing.Font("Orbitron", 8.249999!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.BtnYakin.Location = New System.Drawing.Point(219, 119)
+        Me.BtnYakin.Font = New System.Drawing.Font("Orbitron", 8.249999!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BtnYakin.Location = New System.Drawing.Point(295, 168)
         Me.BtnYakin.Name = "BtnYakin"
-        Me.BtnYakin.Size = New System.Drawing.Size(75, 32)
-        Me.BtnYakin.TabIndex = 5
+        Me.BtnYakin.Size = New System.Drawing.Size(90, 25)
+        Me.BtnYakin.TabIndex = 6
         Me.BtnYakin.Text = "Yakin"
         Me.BtnYakin.UseVisualStyleBackColor = True
         '
         'BtnBatal
         '
-        Me.BtnBatal.Font = New System.Drawing.Font("Orbitron", 8.249999!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.BtnBatal.Location = New System.Drawing.Point(90, 119)
+        Me.BtnBatal.Font = New System.Drawing.Font("Orbitron", 8.249999!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BtnBatal.Location = New System.Drawing.Point(139, 168)
         Me.BtnBatal.Name = "BtnBatal"
-        Me.BtnBatal.Size = New System.Drawing.Size(75, 32)
-        Me.BtnBatal.TabIndex = 4
+        Me.BtnBatal.Size = New System.Drawing.Size(90, 25)
+        Me.BtnBatal.TabIndex = 5
         Me.BtnBatal.Text = "Batal"
         Me.BtnBatal.UseVisualStyleBackColor = True
         '
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Font = New System.Drawing.Font("Orbitron", 11.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(87, 63)
+        Me.Label1.Font = New System.Drawing.Font("Orbitron", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Location = New System.Drawing.Point(157, 68)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(207, 18)
-        Me.Label1.TabIndex = 3
+        Me.Label1.TabIndex = 4
         Me.Label1.Text = "Yakin Ingin Menghapus ?"
         '
         'Hapus_Order_Barang
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(395, 217)
+        Me.ClientSize = New System.Drawing.Size(524, 261)
+        Me.Controls.Add(Me.LblIdBarang)
         Me.Controls.Add(Me.BtnYakin)
         Me.Controls.Add(Me.BtnBatal)
         Me.Controls.Add(Me.Label1)
@@ -72,6 +84,7 @@ Partial Class Hapus_Order_Barang
 
     End Sub
 
+    Friend WithEvents LblIdBarang As Label
     Friend WithEvents BtnYakin As Button
     Friend WithEvents BtnBatal As Button
     Friend WithEvents Label1 As Label

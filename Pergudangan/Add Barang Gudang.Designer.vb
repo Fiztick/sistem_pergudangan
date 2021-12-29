@@ -35,8 +35,8 @@ Partial Class Add_Barang_Gudang
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Font = New System.Drawing.Font("Orbitron", 15.75!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(117, 71)
+        Me.Label1.Font = New System.Drawing.Font("Orbitron", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Location = New System.Drawing.Point(43, 28)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(559, 25)
         Me.Label1.TabIndex = 0
@@ -45,8 +45,8 @@ Partial Class Add_Barang_Gudang
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Font = New System.Drawing.Font("Orbitron", 11.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(188, 128)
+        Me.Label2.Font = New System.Drawing.Font("Orbitron", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.Location = New System.Drawing.Point(47, 92)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(119, 18)
         Me.Label2.TabIndex = 1
@@ -55,8 +55,8 @@ Partial Class Add_Barang_Gudang
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Font = New System.Drawing.Font("Orbitron", 11.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.Location = New System.Drawing.Point(188, 170)
+        Me.Label3.Font = New System.Drawing.Font("Orbitron", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.Location = New System.Drawing.Point(47, 130)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(118, 18)
         Me.Label3.TabIndex = 2
@@ -65,8 +65,8 @@ Partial Class Add_Barang_Gudang
         'Label4
         '
         Me.Label4.AutoSize = True
-        Me.Label4.Font = New System.Drawing.Font("Orbitron", 11.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.Location = New System.Drawing.Point(188, 216)
+        Me.Label4.Font = New System.Drawing.Font("Orbitron", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label4.Location = New System.Drawing.Point(47, 167)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(122, 18)
         Me.Label4.TabIndex = 3
@@ -74,33 +74,33 @@ Partial Class Add_Barang_Gudang
         '
         'TxtNamaBarang
         '
-        Me.TxtNamaBarang.Location = New System.Drawing.Point(353, 128)
+        Me.TxtNamaBarang.Location = New System.Drawing.Point(172, 93)
         Me.TxtNamaBarang.Name = "TxtNamaBarang"
-        Me.TxtNamaBarang.Size = New System.Drawing.Size(212, 20)
+        Me.TxtNamaBarang.Size = New System.Drawing.Size(399, 20)
         Me.TxtNamaBarang.TabIndex = 4
         '
         'TxtStock
         '
-        Me.TxtStock.Location = New System.Drawing.Point(353, 209)
+        Me.TxtStock.Location = New System.Drawing.Point(175, 167)
         Me.TxtStock.Name = "TxtStock"
-        Me.TxtStock.Size = New System.Drawing.Size(212, 20)
+        Me.TxtStock.Size = New System.Drawing.Size(396, 20)
         Me.TxtStock.TabIndex = 5
         '
         'ComboBoxJenisBarang
         '
         Me.ComboBoxJenisBarang.FormattingEnabled = True
-        Me.ComboBoxJenisBarang.Items.AddRange(New Object() {"Pcs", "Kilogram", "Box", "Unit", "Liter", "Lusin", "Meter"})
-        Me.ComboBoxJenisBarang.Location = New System.Drawing.Point(353, 162)
+        Me.ComboBoxJenisBarang.Items.AddRange(New Object() {"Susu", "Pakian", "Beras", "ATK", "Alat Mandi", "Alat Makan"})
+        Me.ComboBoxJenisBarang.Location = New System.Drawing.Point(171, 130)
         Me.ComboBoxJenisBarang.Name = "ComboBoxJenisBarang"
-        Me.ComboBoxJenisBarang.Size = New System.Drawing.Size(212, 21)
+        Me.ComboBoxJenisBarang.Size = New System.Drawing.Size(400, 21)
         Me.ComboBoxJenisBarang.TabIndex = 6
         '
         'BtnAddBarang
         '
-        Me.BtnAddBarang.Font = New System.Drawing.Font("Orbitron", 8.249999!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.BtnAddBarang.Location = New System.Drawing.Point(472, 263)
+        Me.BtnAddBarang.Font = New System.Drawing.Font("Orbitron", 8.249999!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BtnAddBarang.Location = New System.Drawing.Point(478, 206)
         Me.BtnAddBarang.Name = "BtnAddBarang"
-        Me.BtnAddBarang.Size = New System.Drawing.Size(93, 23)
+        Me.BtnAddBarang.Size = New System.Drawing.Size(90, 25)
         Me.BtnAddBarang.TabIndex = 7
         Me.BtnAddBarang.Text = "Add Barang"
         Me.BtnAddBarang.UseVisualStyleBackColor = True
@@ -109,7 +109,7 @@ Partial Class Add_Barang_Gudang
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(730, 320)
+        Me.ClientSize = New System.Drawing.Size(614, 261)
         Me.Controls.Add(Me.BtnAddBarang)
         Me.Controls.Add(Me.ComboBoxJenisBarang)
         Me.Controls.Add(Me.TxtStock)
