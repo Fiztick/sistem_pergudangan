@@ -1,9 +1,9 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class Order_Barang
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
-    <System.Diagnostics.DebuggerNonUserCode()> _
+    <System.Diagnostics.DebuggerNonUserCode()>
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,32 +20,29 @@ Partial Class Order_Barang
     'NOTE: The following procedure is required by the Windows Form Designer
     'It can be modified using the Windows Form Designer.  
     'Do not modify it using the code editor.
-    <System.Diagnostics.DebuggerStepThrough()> _
+    <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.BtnHapusOrder = New System.Windows.Forms.Button()
         Me.BtnAddOrder = New System.Windows.Forms.Button()
         Me.DataGridOrderBarang = New System.Windows.Forms.DataGridView()
-        Me.IdBarang = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.JumlahOrder = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.TanggalOrder = New System.Windows.Forms.DataGridViewTextBoxColumn()
         CType(Me.DataGridOrderBarang, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Font = New System.Drawing.Font("Orbitron", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.Location = New System.Drawing.Point(162, 20)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(269, 25)
+        Me.Label1.Size = New System.Drawing.Size(242, 25)
         Me.Label1.TabIndex = 9
         Me.Label1.Text = "Order Barang Gudang"
         '
         'BtnHapusOrder
         '
-        Me.BtnHapusOrder.Font = New System.Drawing.Font("Orbitron", 8.249999!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.BtnHapusOrder.Location = New System.Drawing.Point(358, 192)
+        Me.BtnHapusOrder.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BtnHapusOrder.Location = New System.Drawing.Point(363, 119)
         Me.BtnHapusOrder.Name = "BtnHapusOrder"
         Me.BtnHapusOrder.Size = New System.Drawing.Size(190, 30)
         Me.BtnHapusOrder.TabIndex = 8
@@ -54,8 +51,8 @@ Partial Class Order_Barang
         '
         'BtnAddOrder
         '
-        Me.BtnAddOrder.Font = New System.Drawing.Font("Orbitron", 8.249999!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.BtnAddOrder.Location = New System.Drawing.Point(358, 72)
+        Me.BtnAddOrder.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BtnAddOrder.Location = New System.Drawing.Point(363, 72)
         Me.BtnAddOrder.Name = "BtnAddOrder"
         Me.BtnAddOrder.Size = New System.Drawing.Size(190, 30)
         Me.BtnAddOrder.TabIndex = 6
@@ -65,26 +62,10 @@ Partial Class Order_Barang
         'DataGridOrderBarang
         '
         Me.DataGridOrderBarang.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.DataGridOrderBarang.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.IdBarang, Me.JumlahOrder, Me.TanggalOrder})
         Me.DataGridOrderBarang.Location = New System.Drawing.Point(12, 72)
         Me.DataGridOrderBarang.Name = "DataGridOrderBarang"
         Me.DataGridOrderBarang.Size = New System.Drawing.Size(340, 150)
         Me.DataGridOrderBarang.TabIndex = 5
-        '
-        'IdBarang
-        '
-        Me.IdBarang.HeaderText = "ID Barang"
-        Me.IdBarang.Name = "IdBarang"
-        '
-        'JumlahOrder
-        '
-        Me.JumlahOrder.HeaderText = "Jumlah Order"
-        Me.JumlahOrder.Name = "JumlahOrder"
-        '
-        'TanggalOrder
-        '
-        Me.TanggalOrder.HeaderText = "Tanggal Order"
-        Me.TanggalOrder.Name = "TanggalOrder"
         '
         'Order_Barang
         '
@@ -107,7 +88,4 @@ Partial Class Order_Barang
     Friend WithEvents BtnHapusOrder As Button
     Friend WithEvents BtnAddOrder As Button
     Friend WithEvents DataGridOrderBarang As DataGridView
-    Friend WithEvents IdBarang As DataGridViewTextBoxColumn
-    Friend WithEvents JumlahOrder As DataGridViewTextBoxColumn
-    Friend WithEvents TanggalOrder As DataGridViewTextBoxColumn
 End Class

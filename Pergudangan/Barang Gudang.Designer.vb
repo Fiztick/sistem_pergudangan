@@ -23,9 +23,6 @@ Partial Class Barang_Gudang
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.DataGridBarangGudang = New System.Windows.Forms.DataGridView()
-        Me.NamaBarang = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.StockBarang = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.JenisBarang = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.BtnAddBarang = New System.Windows.Forms.Button()
         Me.BtnEditBarang = New System.Windows.Forms.Button()
         Me.BtnHapusBarang = New System.Windows.Forms.Button()
@@ -36,31 +33,15 @@ Partial Class Barang_Gudang
         'DataGridBarangGudang
         '
         Me.DataGridBarangGudang.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.DataGridBarangGudang.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.NamaBarang, Me.StockBarang, Me.JenisBarang})
         Me.DataGridBarangGudang.Location = New System.Drawing.Point(14, 58)
         Me.DataGridBarangGudang.Name = "DataGridBarangGudang"
-        Me.DataGridBarangGudang.Size = New System.Drawing.Size(340, 150)
+        Me.DataGridBarangGudang.Size = New System.Drawing.Size(372, 150)
         Me.DataGridBarangGudang.TabIndex = 0
-        '
-        'NamaBarang
-        '
-        Me.NamaBarang.HeaderText = "Nama Barang"
-        Me.NamaBarang.Name = "NamaBarang"
-        '
-        'StockBarang
-        '
-        Me.StockBarang.HeaderText = "Stock Barang"
-        Me.StockBarang.Name = "StockBarang"
-        '
-        'JenisBarang
-        '
-        Me.JenisBarang.HeaderText = "Jenis Barang"
-        Me.JenisBarang.Name = "JenisBarang"
         '
         'BtnAddBarang
         '
-        Me.BtnAddBarang.Font = New System.Drawing.Font("Orbitron", 8.249999!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.BtnAddBarang.Location = New System.Drawing.Point(360, 58)
+        Me.BtnAddBarang.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BtnAddBarang.Location = New System.Drawing.Point(410, 58)
         Me.BtnAddBarang.Name = "BtnAddBarang"
         Me.BtnAddBarang.Size = New System.Drawing.Size(190, 30)
         Me.BtnAddBarang.TabIndex = 1
@@ -69,8 +50,8 @@ Partial Class Barang_Gudang
         '
         'BtnEditBarang
         '
-        Me.BtnEditBarang.Font = New System.Drawing.Font("Orbitron", 8.249999!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.BtnEditBarang.Location = New System.Drawing.Point(360, 117)
+        Me.BtnEditBarang.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BtnEditBarang.Location = New System.Drawing.Point(410, 117)
         Me.BtnEditBarang.Name = "BtnEditBarang"
         Me.BtnEditBarang.Size = New System.Drawing.Size(190, 30)
         Me.BtnEditBarang.TabIndex = 2
@@ -79,8 +60,8 @@ Partial Class Barang_Gudang
         '
         'BtnHapusBarang
         '
-        Me.BtnHapusBarang.Font = New System.Drawing.Font("Orbitron", 8.249999!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.BtnHapusBarang.Location = New System.Drawing.Point(360, 178)
+        Me.BtnHapusBarang.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BtnHapusBarang.Location = New System.Drawing.Point(410, 178)
         Me.BtnHapusBarang.Name = "BtnHapusBarang"
         Me.BtnHapusBarang.Size = New System.Drawing.Size(190, 30)
         Me.BtnHapusBarang.TabIndex = 3
@@ -90,10 +71,10 @@ Partial Class Barang_Gudang
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Font = New System.Drawing.Font("Orbitron", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.Location = New System.Drawing.Point(106, 9)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(376, 25)
+        Me.Label1.Size = New System.Drawing.Size(340, 25)
         Me.Label1.TabIndex = 4
         Me.Label1.Text = "Macam Macam Barang Gudang"
         '
@@ -101,7 +82,7 @@ Partial Class Barang_Gudang
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(584, 361)
+        Me.ClientSize = New System.Drawing.Size(612, 354)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.BtnHapusBarang)
         Me.Controls.Add(Me.BtnEditBarang)
@@ -116,9 +97,6 @@ Partial Class Barang_Gudang
     End Sub
 
     Friend WithEvents DataGridBarangGudang As DataGridView
-    Friend WithEvents NamaBarang As DataGridViewTextBoxColumn
-    Friend WithEvents StockBarang As DataGridViewTextBoxColumn
-    Friend WithEvents JenisBarang As DataGridViewTextBoxColumn
     Friend WithEvents BtnAddBarang As Button
     Friend WithEvents BtnEditBarang As Button
     Friend WithEvents BtnHapusBarang As Button

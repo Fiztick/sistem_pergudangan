@@ -31,7 +31,7 @@ Partial Class Pergudangan
         '
         'btnjenisBarang
         '
-        Me.btnjenisBarang.Font = New System.Drawing.Font("Orbitron", 8.249999!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnjenisBarang.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnjenisBarang.Location = New System.Drawing.Point(82, 135)
         Me.btnjenisBarang.Name = "btnjenisBarang"
         Me.btnjenisBarang.Size = New System.Drawing.Size(190, 30)
@@ -41,7 +41,7 @@ Partial Class Pergudangan
         '
         'BtnBarangGudang
         '
-        Me.BtnBarangGudang.Font = New System.Drawing.Font("Orbitron", 8.249999!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BtnBarangGudang.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.BtnBarangGudang.Location = New System.Drawing.Point(82, 199)
         Me.BtnBarangGudang.Name = "BtnBarangGudang"
         Me.BtnBarangGudang.Size = New System.Drawing.Size(190, 30)
@@ -51,7 +51,7 @@ Partial Class Pergudangan
         '
         'BtnOrderBarang
         '
-        Me.BtnOrderBarang.Font = New System.Drawing.Font("Orbitron", 8.249999!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BtnOrderBarang.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.BtnOrderBarang.Location = New System.Drawing.Point(311, 135)
         Me.BtnOrderBarang.Name = "BtnOrderBarang"
         Me.BtnOrderBarang.Size = New System.Drawing.Size(190, 30)
@@ -61,7 +61,7 @@ Partial Class Pergudangan
         '
         'BtnmasukBarang
         '
-        Me.BtnmasukBarang.Font = New System.Drawing.Font("Orbitron", 8.249999!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BtnmasukBarang.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.BtnmasukBarang.Location = New System.Drawing.Point(311, 199)
         Me.BtnmasukBarang.Name = "BtnmasukBarang"
         Me.BtnmasukBarang.Size = New System.Drawing.Size(190, 30)
@@ -72,10 +72,10 @@ Partial Class Pergudangan
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Font = New System.Drawing.Font("Orbitron", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.Location = New System.Drawing.Point(164, 9)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(256, 25)
+        Me.Label1.Size = New System.Drawing.Size(230, 25)
         Me.Label1.TabIndex = 4
         Me.Label1.Text = "Sistem Pergudangan"
         '

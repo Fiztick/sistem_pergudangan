@@ -32,7 +32,7 @@ Partial Class Add_Jenis_Barang
         '
         'BtnAddJenis
         '
-        Me.BtnAddJenis.Font = New System.Drawing.Font("Orbitron", 8.249999!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BtnAddJenis.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.249999!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.BtnAddJenis.Location = New System.Drawing.Point(380, 162)
         Me.BtnAddJenis.Name = "BtnAddJenis"
         Me.BtnAddJenis.Size = New System.Drawing.Size(90, 25)
@@ -43,20 +43,20 @@ Partial Class Add_Jenis_Barang
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Font = New System.Drawing.Font("Orbitron", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label2.Location = New System.Drawing.Point(90, 22)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(331, 25)
+        Me.Label2.Size = New System.Drawing.Size(301, 25)
         Me.Label2.TabIndex = 6
         Me.Label2.Text = "Silahkan Pilih Jenis Barang"
         '
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Font = New System.Drawing.Font("Orbitron", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.Location = New System.Drawing.Point(48, 77)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(118, 18)
+        Me.Label1.Size = New System.Drawing.Size(106, 18)
         Me.Label1.TabIndex = 5
         Me.Label1.Text = "Jenis Barang"
         '
@@ -72,17 +72,17 @@ Partial Class Add_Jenis_Barang
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Font = New System.Drawing.Font("Orbitron", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label3.Location = New System.Drawing.Point(48, 121)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(67, 18)
+        Me.Label3.Size = New System.Drawing.Size(60, 18)
         Me.Label3.TabIndex = 8
         Me.Label3.Text = "Satuan"
         '
         'ComboBoxAddJenis
         '
         Me.ComboBoxAddJenis.FormattingEnabled = True
-        Me.ComboBoxAddJenis.Items.AddRange(New Object() {"Susu", "Pakian", "Beras", "ATK", "Alat Mandi", "Alat Makan", ""})
+        Me.ComboBoxAddJenis.Items.AddRange(New Object() {"Susu", "Pakain", "Beras", "ATK", "Alat Mandi", "Alat Makan"})
         Me.ComboBoxAddJenis.Location = New System.Drawing.Point(195, 78)
         Me.ComboBoxAddJenis.Name = "ComboBoxAddJenis"
         Me.ComboBoxAddJenis.Size = New System.Drawing.Size(275, 21)

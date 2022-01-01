@@ -34,7 +34,7 @@ Partial Class Edit_Barang_Gudang
         '
         'BtnEditBarang
         '
-        Me.BtnEditBarang.Font = New System.Drawing.Font("Orbitron", 8.249999!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BtnEditBarang.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.249999!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.BtnEditBarang.Location = New System.Drawing.Point(463, 207)
         Me.BtnEditBarang.Name = "BtnEditBarang"
         Me.BtnEditBarang.Size = New System.Drawing.Size(90, 25)
@@ -45,10 +45,10 @@ Partial Class Edit_Barang_Gudang
         'ComboBoxJenisBarang
         '
         Me.ComboBoxJenisBarang.FormattingEnabled = True
-        Me.ComboBoxJenisBarang.Items.AddRange(New Object() {"Susu", "Pakian", "Beras", "ATK", "Alat Mandi", "Alat Makan"})
-        Me.ComboBoxJenisBarang.Location = New System.Drawing.Point(156, 131)
+        Me.ComboBoxJenisBarang.Items.AddRange(New Object() {"Susu", "Pakaian", "Beras", "ATK", "Alat Mandi", "Alat Makan"})
+        Me.ComboBoxJenisBarang.Location = New System.Drawing.Point(160, 131)
         Me.ComboBoxJenisBarang.Name = "ComboBoxJenisBarang"
-        Me.ComboBoxJenisBarang.Size = New System.Drawing.Size(400, 21)
+        Me.ComboBoxJenisBarang.Size = New System.Drawing.Size(396, 21)
         Me.ComboBoxJenisBarang.TabIndex = 14
         '
         'TxtStock
@@ -60,48 +60,48 @@ Partial Class Edit_Barang_Gudang
         '
         'TxtNamaBarang
         '
-        Me.TxtNamaBarang.Location = New System.Drawing.Point(157, 94)
+        Me.TxtNamaBarang.Location = New System.Drawing.Point(160, 94)
         Me.TxtNamaBarang.Name = "TxtNamaBarang"
-        Me.TxtNamaBarang.Size = New System.Drawing.Size(399, 20)
+        Me.TxtNamaBarang.Size = New System.Drawing.Size(396, 20)
         Me.TxtNamaBarang.TabIndex = 12
         '
         'Label4
         '
         Me.Label4.AutoSize = True
-        Me.Label4.Font = New System.Drawing.Font("Orbitron", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label4.Location = New System.Drawing.Point(32, 168)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(122, 18)
+        Me.Label4.Size = New System.Drawing.Size(110, 18)
         Me.Label4.TabIndex = 11
         Me.Label4.Text = "Stock Barang"
         '
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Font = New System.Drawing.Font("Orbitron", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label3.Location = New System.Drawing.Point(32, 131)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(118, 18)
+        Me.Label3.Size = New System.Drawing.Size(106, 18)
         Me.Label3.TabIndex = 10
         Me.Label3.Text = "Jenis Barang"
         '
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Font = New System.Drawing.Font("Orbitron", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label2.Location = New System.Drawing.Point(32, 93)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(119, 18)
+        Me.Label2.Size = New System.Drawing.Size(110, 18)
         Me.Label2.TabIndex = 9
         Me.Label2.Text = "Nama Barang"
         '
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Font = New System.Drawing.Font("Orbitron", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.Location = New System.Drawing.Point(70, 28)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(466, 25)
+        Me.Label1.Size = New System.Drawing.Size(426, 25)
         Me.Label1.TabIndex = 8
         Me.Label1.Text = "Masukan Data Barang yang ingin diedit"
         '

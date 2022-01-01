@@ -30,18 +30,18 @@ Partial Class Hapus_Barang_Gudang
         '
         'LblnamaBarang
         '
-        Me.LblnamaBarang.AutoSize = True
-        Me.LblnamaBarang.Font = New System.Drawing.Font("Orbitron", 8.249999!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.LblnamaBarang.Location = New System.Drawing.Point(220, 102)
+        Me.LblnamaBarang.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LblnamaBarang.Location = New System.Drawing.Point(12, 102)
         Me.LblnamaBarang.Name = "LblnamaBarang"
-        Me.LblnamaBarang.Size = New System.Drawing.Size(93, 14)
+        Me.LblnamaBarang.Size = New System.Drawing.Size(500, 23)
         Me.LblnamaBarang.TabIndex = 7
         Me.LblnamaBarang.Text = "Nama Barang"
+        Me.LblnamaBarang.TextAlign = System.Drawing.ContentAlignment.TopCenter
         '
         'BtnYakin
         '
-        Me.BtnYakin.Font = New System.Drawing.Font("Orbitron", 8.249999!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.BtnYakin.Location = New System.Drawing.Point(312, 164)
+        Me.BtnYakin.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.249999!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BtnYakin.Location = New System.Drawing.Point(305, 164)
         Me.BtnYakin.Name = "BtnYakin"
         Me.BtnYakin.Size = New System.Drawing.Size(90, 25)
         Me.BtnYakin.TabIndex = 6
@@ -50,8 +50,8 @@ Partial Class Hapus_Barang_Gudang
         '
         'BtnBatal
         '
-        Me.BtnBatal.Font = New System.Drawing.Font("Orbitron", 8.249999!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.BtnBatal.Location = New System.Drawing.Point(133, 164)
+        Me.BtnBatal.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.249999!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BtnBatal.Location = New System.Drawing.Point(126, 164)
         Me.BtnBatal.Name = "BtnBatal"
         Me.BtnBatal.Size = New System.Drawing.Size(90, 25)
         Me.BtnBatal.TabIndex = 5
@@ -60,13 +60,13 @@ Partial Class Hapus_Barang_Gudang
         '
         'Label1
         '
-        Me.Label1.AutoSize = True
-        Me.Label1.Font = New System.Drawing.Font("Orbitron", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(164, 46)
+        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Location = New System.Drawing.Point(16, 46)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(207, 18)
+        Me.Label1.Size = New System.Drawing.Size(496, 18)
         Me.Label1.TabIndex = 4
-        Me.Label1.Text = "Yakin Ingin Menghapus ?"
+        Me.Label1.Text = "Yakin Ingin Menghapus Barang ini?"
+        Me.Label1.TextAlign = System.Drawing.ContentAlignment.TopCenter
         '
         'Hapus_Barang_Gudang
         '
@@ -80,7 +80,6 @@ Partial Class Hapus_Barang_Gudang
         Me.Name = "Hapus_Barang_Gudang"
         Me.Text = "Hapus_Barang_Gudang"
         Me.ResumeLayout(False)
-        Me.PerformLayout()
 
     End Sub
 
