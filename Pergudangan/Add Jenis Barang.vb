@@ -9,5 +9,6 @@
 
         Jenis_Barang.barang.AddDataJenisBarangDB(jenis, satuan)
         Jenis_Barang.Activate()
+        Me.Close()
     End Sub
 End Class

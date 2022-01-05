@@ -17,7 +17,7 @@
         TextBoxIdBarang.Enabled = False
     End Sub
 
-    Public Sub ReloadDataTableDB()
+    Private Sub ReloadDataTableDB()
         DataGridViewBarang.DataSource = Order_Barang.barang.GetDataBarangGudangDB
     End Sub
 
@@ -31,6 +31,7 @@
         Else
             Order_Barang.barang.AddDataOrderBarangDB(idBarang, tanggalOrder, jumlahOrder)
             Order_Barang.Activate()
+            Me.Close()
         End If
     End Sub
 

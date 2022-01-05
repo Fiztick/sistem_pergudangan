@@ -6,5 +6,6 @@
 
         Barang_Gudang.barang.AddDataBarangDB(jenisBarang, namaBarang, stockBarang)
         Barang_Gudang.Activate()
+        Me.Close()
     End Sub
 End Class

@@ -27,28 +27,34 @@ CREATE TABLE IF NOT EXISTS `barang` (
   `stock` int(10) DEFAULT NULL,
   PRIMARY KEY (`id_barang`),
   KEY `FK_id_jenis_barang` (`id_jenis_barang`)
-) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8mb4;
+) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=utf8mb4;
 
--- Dumping data for table pergudangan.barang: ~2 rows (approximately)
+-- Dumping data for table pergudangan.barang: ~3 rows (approximately)
 /*!40000 ALTER TABLE `barang` DISABLE KEYS */;
 INSERT INTO `barang` (`id_barang`, `id_jenis_barang`, `barang`, `stock`) VALUES
-	(1, 3, 'Celana Jeans', 10),
-	(2, 1, 'Milo', 10);
+	(1, 1, 'Milo', 10),
+	(3, 3, 'Sari Gandum', 100),
+	(4, 4, 'Pensil', 50),
+	(5, 2, 'T-Shirt Supmer', 26);
 /*!40000 ALTER TABLE `barang` ENABLE KEYS */;
 
 -- Dumping structure for table pergudangan.barang_masuk
 DROP TABLE IF EXISTS `barang_masuk`;
 CREATE TABLE IF NOT EXISTS `barang_masuk` (
-  `id_barang_masuk` int(10) unsigned NOT NULL,
+  `id_barang_masuk` int(10) unsigned NOT NULL AUTO_INCREMENT,
   `id_order` int(10) unsigned NOT NULL,
   `jumlah_masuk` int(10) NOT NULL,
   PRIMARY KEY (`id_barang_masuk`),
   KEY `FK_id_order` (`id_order`),
   CONSTRAINT `FK_id_order` FOREIGN KEY (`id_order`) REFERENCES `order_barang` (`id_order`) ON DELETE NO ACTION ON UPDATE NO ACTION
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8mb4;
 
 -- Dumping data for table pergudangan.barang_masuk: ~0 rows (approximately)
 /*!40000 ALTER TABLE `barang_masuk` DISABLE KEYS */;
+INSERT INTO `barang_masuk` (`id_barang_masuk`, `id_order`, `jumlah_masuk`) VALUES
+	(1, 2, 10),
+	(2, 3, 25),
+	(3, 4, 200);
 /*!40000 ALTER TABLE `barang_masuk` ENABLE KEYS */;
 
 -- Dumping structure for table pergudangan.jenis_barang
@@ -58,17 +64,17 @@ CREATE TABLE IF NOT EXISTS `jenis_barang` (
   `jenis_barang` varchar(50) NOT NULL,
   `satuan` varchar(50) NOT NULL,
   PRIMARY KEY (`id_jenis_barang`)
-) ENGINE=InnoDB AUTO_INCREMENT=8 DEFAULT CHARSET=utf8mb4;
+) ENGINE=InnoDB AUTO_INCREMENT=7 DEFAULT CHARSET=utf8mb4;
 
 -- Dumping data for table pergudangan.jenis_barang: ~6 rows (approximately)
 /*!40000 ALTER TABLE `jenis_barang` DISABLE KEYS */;
 INSERT INTO `jenis_barang` (`id_jenis_barang`, `jenis_barang`, `satuan`) VALUES
-	(1, 'Susu', 'Box'),
-	(3, 'Pakaian', 'Box'),
-	(4, 'Beras', 'Liter'),
-	(5, 'ATK', 'Unit'),
-	(6, 'Alat Mandi', 'Unit'),
-	(7, 'Alat Makan', 'Unit');
+	(1, 'Susu', 'Liter'),
+	(2, 'Pakaian', 'Pcs'),
+	(3, 'Beras', 'Liter'),
+	(4, 'ATK', 'Unit'),
+	(5, 'Alat Mandi', 'Box'),
+	(6, 'Alat Makan', 'Box');
 /*!40000 ALTER TABLE `jenis_barang` ENABLE KEYS */;
 
 -- Dumping structure for table pergudangan.order_barang
@@ -82,14 +88,15 @@ CREATE TABLE IF NOT EXISTS `order_barang` (
   PRIMARY KEY (`id_order`),
   KEY `FK_id_barang` (`id_barang`),
   CONSTRAINT `FK_id_barang` FOREIGN KEY (`id_barang`) REFERENCES `barang` (`id_barang`) ON DELETE NO ACTION ON UPDATE NO ACTION
-) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=utf8mb4;
+) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8mb4;
 
 -- Dumping data for table pergudangan.order_barang: ~0 rows (approximately)
 /*!40000 ALTER TABLE `order_barang` DISABLE KEYS */;
 INSERT INTO `order_barang` (`id_order`, `id_barang`, `tanggal_order`, `jumlah_order`, `status_order`) VALUES
-	(1, 1, '2022-01-01', 14, 1),
-	(4, 2, '2022-01-01', 123, 0),
-	(5, 2, '2022-01-01', 3, 0);
+	(1, 1, '2022-01-05', 10, 1),
+	(2, 3, '2022-01-05', 10, 1),
+	(3, 4, '2022-01-05', 25, 1),
+	(4, 5, '2022-01-05', 0, 0);
 /*!40000 ALTER TABLE `order_barang` ENABLE KEYS */;
 
 -- Dumping structure for table pergudangan.users

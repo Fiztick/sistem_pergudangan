@@ -18,5 +18,6 @@
                                                         Jenis_Barang.barang.satuanProperty)
 
         Jenis_Barang.Activate()
+        Me.Close()
     End Sub
 End Class

@@ -65,7 +65,7 @@ Partial Class Hapus_Order_Barang
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(500, 18)
         Me.Label1.TabIndex = 4
-        Me.Label1.Text = "Yakin Ingin Menghapus Order Barang Ini?"
+        Me.Label1.Text = "Yakin Ingin Menghapus Order Barang dengan ID Order Ini?"
         Me.Label1.TextAlign = System.Drawing.ContentAlignment.TopCenter
         '
         'Hapus_Order_Barang

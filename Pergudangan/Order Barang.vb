@@ -7,7 +7,7 @@
         ReloadDataTableDB()
     End Sub
 
-    Public Sub ReloadDataTableDB()
+    Private Sub ReloadDataTableDB()
         DataGridOrderBarang.DataSource = barang.GetDataOrderBarangDB()
     End Sub
 

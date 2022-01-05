@@ -5,7 +5,7 @@
         InitializeComponent()
 
         ' Add any initialization after the InitializeComponent() call.
-        LblIdOrder.Text = "ID Order Nomor " & Order_Barang.selectedTableOrderBarang
+        LblIdOrder.Text = Order_Barang.selectedTableOrderBarang
     End Sub
 
     Private Sub BtnYakin_Click(sender As Object, e As EventArgs) Handles BtnYakin.Click

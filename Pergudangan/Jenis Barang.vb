@@ -40,10 +40,8 @@
         If selectedTableJenisBarang = 0 Then
             MessageBox.Show("Tolong pilih data yang ingin di hapus")
         Else
-            Dim dataselected As List(Of String) = barang.GetDataJenisBarangByIDDB(selectedTableJenisBarang)
-
+            Dim dataselected = barang.GetDataJenisBarangByIDDB(selectedTableJenisBarang)
             barang.jenisBarangProperty = dataselected(0)
-
             Hapus_Jenis_Barang.Show()
         End If
     End Sub

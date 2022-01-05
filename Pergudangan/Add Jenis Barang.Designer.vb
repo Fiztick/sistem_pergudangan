@@ -82,7 +82,7 @@ Partial Class Add_Jenis_Barang
         'ComboBoxAddJenis
         '
         Me.ComboBoxAddJenis.FormattingEnabled = True
-        Me.ComboBoxAddJenis.Items.AddRange(New Object() {"Susu", "Pakain", "Beras", "ATK", "Alat Mandi", "Alat Makan"})
+        Me.ComboBoxAddJenis.Items.AddRange(New Object() {"Susu", "Pakaian", "Beras", "ATK", "Alat Mandi", "Alat Makan"})
         Me.ComboBoxAddJenis.Location = New System.Drawing.Point(195, 78)
         Me.ComboBoxAddJenis.Name = "ComboBoxAddJenis"
         Me.ComboBoxAddJenis.Size = New System.Drawing.Size(275, 21)
