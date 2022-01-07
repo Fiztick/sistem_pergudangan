@@ -20,6 +20,7 @@
             Else
                 MessageBox.Show("Username atau password salah")
             End If
+            TxtUser.Text = ""
         End If
     End Sub
 

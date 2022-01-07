@@ -401,9 +401,13 @@ Public Class barang
             dbConn.Open()
             sqlCommand.Connection = dbConn
 
-            sqlQuery = "DELETE 
+            sqlQuery = "SET foreign_key_checks = 0;
+                        DELETE 
                         FROM barang
-                        WHERE id_barang='" & id & "'"
+                        WHERE id_barang='" & id & "';
+                        SET foreign_key_checks = 1;"
+
+            Debug.WriteLine(sqlQuery)
 
             sqlCommand = New MySqlCommand(sqlQuery, dbConn)
             sqlRead = sqlCommand.ExecuteReader
