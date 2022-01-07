@@ -636,8 +636,8 @@ Public Class barang
             sqlCommand.Connection = dbConn
 
             sqlQuery = "DELETE
-                        FROM masuk_barang
-                        WHERE id_order='" & id & "'"
+                        FROM barang_masuk
+                        WHERE id_barang_masuk='" & id & "'"
 
             Debug.WriteLine(sqlQuery)
 
