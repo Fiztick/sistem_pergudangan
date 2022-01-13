@@ -35,10 +35,9 @@ Partial Class Add_Barang_Masuk
         'BtnAddBarangMasuk
         '
         Me.BtnAddBarangMasuk.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.249999!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.BtnAddBarangMasuk.Location = New System.Drawing.Point(486, 468)
-        Me.BtnAddBarangMasuk.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.BtnAddBarangMasuk.Location = New System.Drawing.Point(324, 304)
         Me.BtnAddBarangMasuk.Name = "BtnAddBarangMasuk"
-        Me.BtnAddBarangMasuk.Size = New System.Drawing.Size(200, 38)
+        Me.BtnAddBarangMasuk.Size = New System.Drawing.Size(133, 25)
         Me.BtnAddBarangMasuk.TabIndex = 25
         Me.BtnAddBarangMasuk.Text = "Add Barang Masuk"
         Me.BtnAddBarangMasuk.UseVisualStyleBackColor = True
@@ -46,38 +45,34 @@ Partial Class Add_Barang_Masuk
         'Label4
         '
         Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.Location = New System.Drawing.Point(-136, 49)
-        Me.Label4.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label4.Location = New System.Drawing.Point(-91, 32)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(1068, 38)
+        Me.Label4.Size = New System.Drawing.Size(712, 25)
         Me.Label4.TabIndex = 24
         Me.Label4.Text = "Masukan Data Barang Masuk untuk Order"
         Me.Label4.TextAlign = System.Drawing.ContentAlignment.TopCenter
         '
         'TextBoxJumlahMasuk
         '
-        Me.TextBoxJumlahMasuk.Location = New System.Drawing.Point(284, 421)
-        Me.TextBoxJumlahMasuk.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.TextBoxJumlahMasuk.Location = New System.Drawing.Point(189, 274)
         Me.TextBoxJumlahMasuk.Name = "TextBoxJumlahMasuk"
-        Me.TextBoxJumlahMasuk.Size = New System.Drawing.Size(402, 26)
+        Me.TextBoxJumlahMasuk.Size = New System.Drawing.Size(269, 20)
         Me.TextBoxJumlahMasuk.TabIndex = 22
         '
         'TextBoxIdOrder
         '
-        Me.TextBoxIdOrder.Location = New System.Drawing.Point(284, 365)
-        Me.TextBoxIdOrder.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.TextBoxIdOrder.Location = New System.Drawing.Point(189, 237)
         Me.TextBoxIdOrder.Name = "TextBoxIdOrder"
-        Me.TextBoxIdOrder.Size = New System.Drawing.Size(402, 26)
+        Me.TextBoxIdOrder.Size = New System.Drawing.Size(269, 20)
         Me.TextBoxIdOrder.TabIndex = 21
         '
         'Label1
         '
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(92, 421)
-        Me.Label1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label1.Location = New System.Drawing.Point(61, 274)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(178, 29)
+        Me.Label1.Size = New System.Drawing.Size(117, 18)
         Me.Label1.TabIndex = 19
         Me.Label1.Text = "Jumlah Masuk"
         '
@@ -85,28 +80,27 @@ Partial Class Add_Barang_Masuk
         '
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(92, 365)
-        Me.Label2.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label2.Location = New System.Drawing.Point(61, 237)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(110, 29)
+        Me.Label2.Size = New System.Drawing.Size(69, 18)
         Me.Label2.TabIndex = 18
         Me.Label2.Text = "Id Order"
         '
         'DataGridViewOrderBarang
         '
+        Me.DataGridViewOrderBarang.AllowUserToAddRows = False
         Me.DataGridViewOrderBarang.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.DataGridViewOrderBarang.Location = New System.Drawing.Point(51, 126)
-        Me.DataGridViewOrderBarang.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.DataGridViewOrderBarang.Location = New System.Drawing.Point(34, 82)
         Me.DataGridViewOrderBarang.Name = "DataGridViewOrderBarang"
         Me.DataGridViewOrderBarang.RowHeadersWidth = 62
-        Me.DataGridViewOrderBarang.Size = New System.Drawing.Size(695, 198)
+        Me.DataGridViewOrderBarang.Size = New System.Drawing.Size(465, 129)
         Me.DataGridViewOrderBarang.TabIndex = 26
         '
         'Add_Barang_Masuk
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 20.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(801, 584)
+        Me.ClientSize = New System.Drawing.Size(534, 380)
         Me.Controls.Add(Me.DataGridViewOrderBarang)
         Me.Controls.Add(Me.BtnAddBarangMasuk)
         Me.Controls.Add(Me.Label4)
@@ -114,7 +108,6 @@ Partial Class Add_Barang_Masuk
         Me.Controls.Add(Me.TextBoxIdOrder)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.Label2)
-        Me.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.Name = "Add_Barang_Masuk"
         Me.Text = "Add_Barang_Masuk"
         CType(Me.DataGridViewOrderBarang, System.ComponentModel.ISupportInitialize).EndInit()

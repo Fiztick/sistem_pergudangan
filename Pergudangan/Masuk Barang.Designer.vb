@@ -61,10 +61,11 @@ Partial Class Masuk_Barang
         '
         'DataGridMasukBarang
         '
+        Me.DataGridMasukBarang.AllowUserToAddRows = False
         Me.DataGridMasukBarang.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.DataGridMasukBarang.Location = New System.Drawing.Point(12, 53)
         Me.DataGridMasukBarang.Name = "DataGridMasukBarang"
-        Me.DataGridMasukBarang.Size = New System.Drawing.Size(340, 150)
+        Me.DataGridMasukBarang.Size = New System.Drawing.Size(343, 150)
         Me.DataGridMasukBarang.TabIndex = 10
         '
         'Masuk_Barang

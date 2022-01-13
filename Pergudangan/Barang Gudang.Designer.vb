@@ -32,21 +32,20 @@ Partial Class Barang_Gudang
         '
         'DataGridBarangGudang
         '
+        Me.DataGridBarangGudang.AllowUserToAddRows = False
         Me.DataGridBarangGudang.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.DataGridBarangGudang.Location = New System.Drawing.Point(46, 100)
-        Me.DataGridBarangGudang.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.DataGridBarangGudang.Location = New System.Drawing.Point(40, 65)
         Me.DataGridBarangGudang.Name = "DataGridBarangGudang"
         Me.DataGridBarangGudang.RowHeadersWidth = 62
-        Me.DataGridBarangGudang.Size = New System.Drawing.Size(725, 203)
+        Me.DataGridBarangGudang.Size = New System.Drawing.Size(464, 132)
         Me.DataGridBarangGudang.TabIndex = 0
         '
         'BtnAddBarang
         '
         Me.BtnAddBarang.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.BtnAddBarang.Location = New System.Drawing.Point(264, 327)
-        Me.BtnAddBarang.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.BtnAddBarang.Location = New System.Drawing.Point(176, 213)
         Me.BtnAddBarang.Name = "BtnAddBarang"
-        Me.BtnAddBarang.Size = New System.Drawing.Size(285, 46)
+        Me.BtnAddBarang.Size = New System.Drawing.Size(190, 30)
         Me.BtnAddBarang.TabIndex = 1
         Me.BtnAddBarang.Text = "Add Barang Gudang"
         Me.BtnAddBarang.UseVisualStyleBackColor = True
@@ -54,10 +53,9 @@ Partial Class Barang_Gudang
         'BtnEditBarang
         '
         Me.BtnEditBarang.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.BtnEditBarang.Location = New System.Drawing.Point(264, 383)
-        Me.BtnEditBarang.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.BtnEditBarang.Location = New System.Drawing.Point(176, 249)
         Me.BtnEditBarang.Name = "BtnEditBarang"
-        Me.BtnEditBarang.Size = New System.Drawing.Size(285, 46)
+        Me.BtnEditBarang.Size = New System.Drawing.Size(190, 30)
         Me.BtnEditBarang.TabIndex = 2
         Me.BtnEditBarang.Text = "Edit Barang Gudang"
         Me.BtnEditBarang.UseVisualStyleBackColor = True
@@ -65,10 +63,9 @@ Partial Class Barang_Gudang
         'BtnHapusBarang
         '
         Me.BtnHapusBarang.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.BtnHapusBarang.Location = New System.Drawing.Point(264, 439)
-        Me.BtnHapusBarang.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.BtnHapusBarang.Location = New System.Drawing.Point(176, 285)
         Me.BtnHapusBarang.Name = "BtnHapusBarang"
-        Me.BtnHapusBarang.Size = New System.Drawing.Size(285, 46)
+        Me.BtnHapusBarang.Size = New System.Drawing.Size(190, 30)
         Me.BtnHapusBarang.TabIndex = 3
         Me.BtnHapusBarang.Text = "Hapus Barang Gudang"
         Me.BtnHapusBarang.UseVisualStyleBackColor = True
@@ -77,24 +74,22 @@ Partial Class Barang_Gudang
         '
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(167, 29)
-        Me.Label1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label1.Location = New System.Drawing.Point(111, 19)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(498, 37)
+        Me.Label1.Size = New System.Drawing.Size(340, 25)
         Me.Label1.TabIndex = 4
         Me.Label1.Text = "Macam Macam Barang Gudang"
         '
         'Barang_Gudang
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 20.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(825, 542)
+        Me.ClientSize = New System.Drawing.Size(550, 352)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.BtnHapusBarang)
         Me.Controls.Add(Me.BtnEditBarang)
         Me.Controls.Add(Me.BtnAddBarang)
         Me.Controls.Add(Me.DataGridBarangGudang)
-        Me.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.Name = "Barang_Gudang"
         Me.Text = "Barang_Gudang"
         CType(Me.DataGridBarangGudang, System.ComponentModel.ISupportInitialize).EndInit()

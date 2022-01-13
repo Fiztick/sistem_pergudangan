@@ -36,4 +36,8 @@
     Private Sub DataGridOrderBarang_CellContentClick(sender As Object, e As DataGridViewCellEventArgs) Handles DataGridOrderBarang.CellContentClick
 
     End Sub
+
+    Private Sub Order_Barang_Closed(sender As Object, e As EventArgs) Handles Me.Closed
+        Pergudangan.Show()
+    End Sub
 End Class

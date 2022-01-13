@@ -56,4 +56,8 @@
             Hapus_Barang_Gudang.Show()
         End If
     End Sub
+
+    Private Sub Barang_Gudang_Closed(sender As Object, e As EventArgs) Handles Me.Closed
+        Pergudangan.Show()
+    End Sub
 End Class

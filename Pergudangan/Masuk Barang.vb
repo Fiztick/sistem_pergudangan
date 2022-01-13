@@ -39,4 +39,8 @@
         selectedRow = DataGridMasukBarang.Rows(index)
         selectedTableMasukBarang = selectedRow.Cells(0).Value
     End Sub
+
+    Private Sub Masuk_Barang_Closed(sender As Object, e As EventArgs) Handles Me.Closed
+        Pergudangan.Show()
+    End Sub
 End Class
