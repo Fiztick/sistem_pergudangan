@@ -33,17 +33,20 @@ Partial Class Jenis_Barang
         'DataGridJenisBarang
         '
         Me.DataGridJenisBarang.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.DataGridJenisBarang.Location = New System.Drawing.Point(12, 67)
+        Me.DataGridJenisBarang.Location = New System.Drawing.Point(67, 114)
+        Me.DataGridJenisBarang.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.DataGridJenisBarang.Name = "DataGridJenisBarang"
-        Me.DataGridJenisBarang.Size = New System.Drawing.Size(340, 150)
+        Me.DataGridJenisBarang.RowHeadersWidth = 62
+        Me.DataGridJenisBarang.Size = New System.Drawing.Size(572, 231)
         Me.DataGridJenisBarang.TabIndex = 0
         '
         'BtnAddJenis
         '
         Me.BtnAddJenis.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.BtnAddJenis.Location = New System.Drawing.Point(358, 67)
+        Me.BtnAddJenis.Location = New System.Drawing.Point(216, 365)
+        Me.BtnAddJenis.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.BtnAddJenis.Name = "BtnAddJenis"
-        Me.BtnAddJenis.Size = New System.Drawing.Size(190, 30)
+        Me.BtnAddJenis.Size = New System.Drawing.Size(285, 46)
         Me.BtnAddJenis.TabIndex = 1
         Me.BtnAddJenis.Text = "Add Jenis Barang"
         Me.BtnAddJenis.UseVisualStyleBackColor = True
@@ -51,9 +54,10 @@ Partial Class Jenis_Barang
         'BtnEditJenis
         '
         Me.BtnEditJenis.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.BtnEditJenis.Location = New System.Drawing.Point(358, 129)
+        Me.BtnEditJenis.Location = New System.Drawing.Point(216, 421)
+        Me.BtnEditJenis.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.BtnEditJenis.Name = "BtnEditJenis"
-        Me.BtnEditJenis.Size = New System.Drawing.Size(190, 30)
+        Me.BtnEditJenis.Size = New System.Drawing.Size(285, 46)
         Me.BtnEditJenis.TabIndex = 2
         Me.BtnEditJenis.Text = "Edit Jenis Barang"
         Me.BtnEditJenis.UseVisualStyleBackColor = True
@@ -61,9 +65,10 @@ Partial Class Jenis_Barang
         'BtnHapusJenis
         '
         Me.BtnHapusJenis.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.BtnHapusJenis.Location = New System.Drawing.Point(358, 187)
+        Me.BtnHapusJenis.Location = New System.Drawing.Point(216, 477)
+        Me.BtnHapusJenis.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.BtnHapusJenis.Name = "BtnHapusJenis"
-        Me.BtnHapusJenis.Size = New System.Drawing.Size(190, 30)
+        Me.BtnHapusJenis.Size = New System.Drawing.Size(285, 46)
         Me.BtnHapusJenis.TabIndex = 3
         Me.BtnHapusJenis.Text = "Hapus Jenis Barang"
         Me.BtnHapusJenis.UseVisualStyleBackColor = True
@@ -72,22 +77,24 @@ Partial Class Jenis_Barang
         '
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(131, 9)
+        Me.Label1.Location = New System.Drawing.Point(135, 43)
+        Me.Label1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(302, 25)
+        Me.Label1.Size = New System.Drawing.Size(436, 37)
         Me.Label1.TabIndex = 4
         Me.Label1.Text = "Jenis Jenis Barang Gudang"
         '
         'Jenis_Barang
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 20.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(584, 269)
+        Me.ClientSize = New System.Drawing.Size(720, 600)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.BtnHapusJenis)
         Me.Controls.Add(Me.BtnEditJenis)
         Me.Controls.Add(Me.BtnAddJenis)
         Me.Controls.Add(Me.DataGridJenisBarang)
+        Me.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.Name = "Jenis_Barang"
         Me.Text = "Jenis_Barang"
         CType(Me.DataGridJenisBarang, System.ComponentModel.ISupportInitialize).EndInit()

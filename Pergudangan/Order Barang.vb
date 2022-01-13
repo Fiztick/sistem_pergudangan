@@ -32,4 +32,8 @@
 
         barang.idBarangProperty = selectedTableOrderBarang
     End Sub
+
+    Private Sub DataGridOrderBarang_CellContentClick(sender As Object, e As DataGridViewCellEventArgs) Handles DataGridOrderBarang.CellContentClick
+
+    End Sub
 End Class

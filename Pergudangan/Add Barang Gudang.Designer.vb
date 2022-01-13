@@ -36,9 +36,10 @@ Partial Class Add_Barang_Gudang
         '
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(43, 28)
+        Me.Label1.Location = New System.Drawing.Point(94, 46)
+        Me.Label1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(509, 25)
+        Me.Label1.Size = New System.Drawing.Size(738, 37)
         Me.Label1.TabIndex = 0
         Me.Label1.Text = "Masukan Data Barang yang ingin di tambahkan"
         '
@@ -46,9 +47,10 @@ Partial Class Add_Barang_Gudang
         '
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(47, 92)
+        Me.Label2.Location = New System.Drawing.Point(70, 142)
+        Me.Label2.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(110, 18)
+        Me.Label2.Size = New System.Drawing.Size(171, 29)
         Me.Label2.TabIndex = 1
         Me.Label2.Text = "Nama Barang"
         '
@@ -56,9 +58,10 @@ Partial Class Add_Barang_Gudang
         '
         Me.Label3.AutoSize = True
         Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.Location = New System.Drawing.Point(47, 130)
+        Me.Label3.Location = New System.Drawing.Point(70, 200)
+        Me.Label3.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(106, 18)
+        Me.Label3.Size = New System.Drawing.Size(165, 29)
         Me.Label3.TabIndex = 2
         Me.Label3.Text = "Jenis Barang"
         '
@@ -66,50 +69,55 @@ Partial Class Add_Barang_Gudang
         '
         Me.Label4.AutoSize = True
         Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.Location = New System.Drawing.Point(47, 167)
+        Me.Label4.Location = New System.Drawing.Point(70, 257)
+        Me.Label4.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(110, 18)
+        Me.Label4.Size = New System.Drawing.Size(168, 29)
         Me.Label4.TabIndex = 3
         Me.Label4.Text = "Stock Barang"
         '
         'TxtNamaBarang
         '
-        Me.TxtNamaBarang.Location = New System.Drawing.Point(175, 93)
+        Me.TxtNamaBarang.Location = New System.Drawing.Point(262, 143)
+        Me.TxtNamaBarang.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.TxtNamaBarang.Name = "TxtNamaBarang"
-        Me.TxtNamaBarang.Size = New System.Drawing.Size(396, 20)
+        Me.TxtNamaBarang.Size = New System.Drawing.Size(592, 26)
         Me.TxtNamaBarang.TabIndex = 4
         '
         'TxtStock
         '
-        Me.TxtStock.Location = New System.Drawing.Point(175, 167)
+        Me.TxtStock.Location = New System.Drawing.Point(262, 257)
+        Me.TxtStock.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.TxtStock.Name = "TxtStock"
-        Me.TxtStock.Size = New System.Drawing.Size(396, 20)
+        Me.TxtStock.Size = New System.Drawing.Size(592, 26)
         Me.TxtStock.TabIndex = 5
         '
         'ComboBoxJenisBarang
         '
         Me.ComboBoxJenisBarang.FormattingEnabled = True
         Me.ComboBoxJenisBarang.Items.AddRange(New Object() {"Susu", "Pakaian", "Beras", "ATK", "Alat Mandi", "Alat Makan"})
-        Me.ComboBoxJenisBarang.Location = New System.Drawing.Point(175, 130)
+        Me.ComboBoxJenisBarang.Location = New System.Drawing.Point(262, 200)
+        Me.ComboBoxJenisBarang.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.ComboBoxJenisBarang.Name = "ComboBoxJenisBarang"
-        Me.ComboBoxJenisBarang.Size = New System.Drawing.Size(396, 21)
+        Me.ComboBoxJenisBarang.Size = New System.Drawing.Size(592, 28)
         Me.ComboBoxJenisBarang.TabIndex = 6
         '
         'BtnAddBarang
         '
         Me.BtnAddBarang.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.249999!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.BtnAddBarang.Location = New System.Drawing.Point(478, 206)
+        Me.BtnAddBarang.Location = New System.Drawing.Point(717, 317)
+        Me.BtnAddBarang.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.BtnAddBarang.Name = "BtnAddBarang"
-        Me.BtnAddBarang.Size = New System.Drawing.Size(90, 25)
+        Me.BtnAddBarang.Size = New System.Drawing.Size(135, 38)
         Me.BtnAddBarang.TabIndex = 7
         Me.BtnAddBarang.Text = "Add Barang"
         Me.BtnAddBarang.UseVisualStyleBackColor = True
         '
         'Add_Barang_Gudang
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 20.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(614, 261)
+        Me.ClientSize = New System.Drawing.Size(921, 402)
         Me.Controls.Add(Me.BtnAddBarang)
         Me.Controls.Add(Me.ComboBoxJenisBarang)
         Me.Controls.Add(Me.TxtStock)
@@ -118,6 +126,7 @@ Partial Class Add_Barang_Gudang
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
+        Me.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.Name = "Add_Barang_Gudang"
         Me.Text = "Add_Barang_Gudang"
         Me.ResumeLayout(False)
