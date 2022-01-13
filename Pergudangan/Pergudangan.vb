@@ -5,17 +5,21 @@
 
     Private Sub btnjenisBarang_Click(sender As Object, e As EventArgs) Handles btnjenisBarang.Click
         Jenis_Barang.Show()
+        Me.Hide()
     End Sub
 
     Private Sub BtnBarangGudang_Click(sender As Object, e As EventArgs) Handles BtnBarangGudang.Click
         Barang_Gudang.Show()
+        Me.Hide()
     End Sub
 
     Private Sub BtnOrderBarang_Click(sender As Object, e As EventArgs) Handles BtnOrderBarang.Click
         Order_Barang.Show()
+        Me.Hide()
     End Sub
 
     Private Sub BtnmasukBarang_Click(sender As Object, e As EventArgs) Handles BtnmasukBarang.Click
         Masuk_Barang.Show()
+        Me.Hide()
     End Sub
 End Class
